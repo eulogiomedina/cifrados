@@ -1,0 +1,52 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding: 20px;
+  }
+  
+  .content-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+  }
+  
+  .card {
+    flex: 1;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-left {
+    text-align: left;
+  }
+  
+  .card-right {
+    text-align: right;
+  }
+  
+  .cipher-button {
+    background-color: #61dafb;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: #282c34;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 20px;
+    align-self: center;
+  }
+  
+  .cipher-button:hover {
+    background-color: #21a1f1;
+  }
+  

@@ -1,0 +1,66 @@
+/* src/CifradoEscitala.css */
+.escitala-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 40px; /* Espacio extra debajo del contenido */
+}
+
+.escitala-grid {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+  gap: 40px; /* Espacio extra entre los dos contenedores (izquierdo y derecho) */
+}
+
+.left-side, .right-side {
+  width: 48%;
+  padding: 30px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px; /* Agregando espacio en la parte inferior */
+}
+
+.right-side {
+  background-color: #f0f0f0;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+textarea, select {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  resize: none;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px; /* Espacio adicional antes de los botones */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #21a1f1;
+}
