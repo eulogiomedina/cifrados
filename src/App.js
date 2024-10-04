@@ -9,7 +9,7 @@ import CifradoEscitala from './CifradoEscitala';
 import CifradoCamellia from './CifradoCamellia'; // Importa el componente de Camellia
 import SchnorrSignature from './SchnorrSignature'; // Importa el componente
 import MD5Hash from './MD5Hash';  // Importa tu componente MD5
-
+import ComparacionFrameworks from './ComparacionFrameworks';
 import './App.css';
 
 function App() {
@@ -24,6 +24,7 @@ function App() {
           <Route path="/camellia" element={<CifradoCamellia />} /> {/* Nueva ruta */}
           <Route path="/schnorr-signature" element={<SchnorrSignature />} /> {/* Nueva ruta */}
           <Route path="/md5" element={<MD5Hash />} />
+          <Route path="/comparacion-frameworks" element={<ComparacionFrameworks />} />
         </Routes>
         <Footer />
       </div>
