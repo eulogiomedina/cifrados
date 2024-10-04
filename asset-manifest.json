@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cifrado/static/css/main.29bb35a8.css",
+    "main.js": "/cifrado/static/js/main.c2955859.js",
+    "static/js/453.a4a2f289.chunk.js": "/cifrado/static/js/453.a4a2f289.chunk.js",
+    "index.html": "/cifrado/index.html",
+    "main.29bb35a8.css.map": "/cifrado/static/css/main.29bb35a8.css.map",
+    "main.c2955859.js.map": "/cifrado/static/js/main.c2955859.js.map",
+    "453.a4a2f289.chunk.js.map": "/cifrado/static/js/453.a4a2f289.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29bb35a8.css",
+    "static/js/main.c2955859.js"
+  ]
+}
