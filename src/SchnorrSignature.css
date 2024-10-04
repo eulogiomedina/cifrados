@@ -1,0 +1,50 @@
+/* src/SchnorrSignature.css */
+.schnorr-signature {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  textarea, input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #21a1f1;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 20px;
+  }
+  
+  .resultado {
+    margin-top: 20px;
+  }
+  

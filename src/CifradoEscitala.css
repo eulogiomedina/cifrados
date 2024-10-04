@@ -1,11 +1,10 @@
-/* src/CifradoEscitala.css */
 .escitala-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 20px;
-  margin-bottom: 40px; /* Espacio extra debajo del contenido */
+  margin-bottom: 40px;
 }
 
 .escitala-grid {
@@ -13,7 +12,24 @@
   justify-content: space-between;
   max-width: 1200px;
   width: 100%;
-  gap: 40px; /* Espacio extra entre los dos contenedores (izquierdo y derecho) */
+  gap: 40px;
+}
+
+/* Ajustes para pantallas pequeñas (menos de 768px) */
+@media (max-width: 768px) {
+  .escitala-grid {
+    flex-direction: column; /* Los contenedores se apilan uno sobre otro en pantallas pequeñas */
+    gap: 20px; /* Reducimos el espacio entre los contenedores cuando están apilados */
+  }
+
+  .left-side, .right-side {
+    width: 100%; /* Cada contenedor ocupará el 100% del ancho disponible */
+  }
+
+  button {
+    width: 100%; /* Los botones ocuparán todo el ancho disponible en pantallas pequeñas */
+    margin-top: 10px; /* Añade un poco de margen entre los botones en pantallas pequeñas */
+  }
 }
 
 .left-side, .right-side {
@@ -22,7 +38,7 @@
   background-color: #f4f4f4;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  margin-bottom: 20px; /* Agregando espacio en la parte inferior */
+  margin-bottom: 20px;
 }
 
 .right-side {
@@ -49,7 +65,7 @@ textarea {
 .button-group {
   display: flex;
   justify-content: space-around;
-  margin-top: 20px; /* Espacio adicional antes de los botones */
+  margin-top: 20px;
 }
 
 button {
