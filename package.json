@@ -2,8 +2,9 @@
   "name": "cifrado-app",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:5000", 
-  "homepage": "https://eulogiomedina.github.io/cifrado",
+  "engines": {
+    "node": ">=16.x"
+  },
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
